@@ -8,6 +8,7 @@ import Wallet from './pages/Wallet';
 import Resources from './pages/Resources';
 import Nav from './components/Nav';
 //주석 추가함
+//주석 또추가
 function App() {
   return (
     <>
