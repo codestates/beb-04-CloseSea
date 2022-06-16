@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import styles from './Movie.module.css';
-import { useState } from 'react';
+import { Link } from "react-router-dom";
+import styles from "./Movie.module.css";
+import { useState } from "react";
 
 function Movie({ coverImg, title, description, price }) {
   const [like, setLike] = useState(false);
@@ -11,19 +11,29 @@ function Movie({ coverImg, title, description, price }) {
       {/* 모든 이미지 element들은 alt 속성을 가진다! */}
       <div>
         <h1 className={styles.movie__title}>{title}</h1>
-        {description === 'null' ? null : <p>{description}</p>}
+        {description === "null" ? null : <p>{description}</p>}
       </div>
-      <span className={styles.movie__price}>{price} eth</span>
+      <span className={styles.movie__price}>
+        Price: {price} eth
+        <img
+          className="ethImg"
+          src="https://gateway.pinata.cloud/ipfs/QmSiscDA3ybp8jbHYT5qiDoRM17tRqLf7dTuCG7oJ44ayr"
+          width="30"
+          height="30"
+          alt=""
+          // 👆 누가 판매중인지 프로필 이미지 띄우기
+        />
+      </span>
 
       <div className={styles.down}>
         <span
           className={styles.movie__likeButton}
           onClick={() => {
-            console.log('click');
+            console.log("click");
             setLike(!like);
           }}
         >
-          {like ? '💖' : '🖤'}
+          {like ? "💖" : "🖤"}
         </span>
       </div>
     </div>

@@ -1,6 +1,6 @@
 .movie {
-  background-color: white;
-  font-weight: 300;
+  background-color: #fff;
+  font-weight: 800;
   padding: 20px;
   border-radius: 20px;
   color: #adaeb9;
@@ -15,6 +15,7 @@
 
 .movie__img {
   position: relative;
+  border-radius: 7px;
   top: -50px;
   max-width: 150px;
   width: 100%;
@@ -26,7 +27,7 @@
 .movie__title,
 .movie__year {
   margin: 0;
-  font-weight: 300;
+  font-weight: 800;
   text-decoration: none;
 }
 
@@ -52,7 +53,7 @@
   font-size: 14px;
 }
 .movie__price {
-  font-weight: 300;
+  font-weight: 800;
   font-size: 1.5em;
   float: inline-end;
   vertical-align: text-bottom;

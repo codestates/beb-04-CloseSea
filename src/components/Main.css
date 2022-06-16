@@ -14,7 +14,7 @@
   background: url("https://ipfs.io/ipfs/QmcxckzMh85qjByvPb4MT8svdjNgjx6tttYTbEq7Ev3rVc");
   background-size: cover;
   opacity: 0.3;
-  filter: blur(8px);
+  filter: blur(4px);
 }
 
 .contentWrapper {

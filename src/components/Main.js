@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css";
+import { Link } from "react-router-dom";
 
 function Main() {
   return (
@@ -16,8 +17,13 @@ function Main() {
             </div>
             {/* 👆 Opensea 홈페이지와 같은 문구 */}
             <div className="ctaContainer">
-              <div className="accentedButton">Explore</div>
-              <div className="button">Create</div>
+              <Link to="/explore">
+                <div className="accentedButton">Explore</div>
+              </Link>
+              <Link to="/trade">
+                <div className="button">Trade</div>
+              </Link>
+
               {/* 👆 버튼 CSS */}
             </div>
           </div>

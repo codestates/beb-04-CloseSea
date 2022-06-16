@@ -1,12 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
-/* 구글폰트 주소
-https://fonts.google.com/specimen/Song+Myung?subset=korean&preview.text=%EC%98%81%ED%99%94%EC%A0%95%EB%B3%B4%EB%A5%BC%20%EB%B6%88%EB%9F%AC%EC%98%A4%EB%8A%94%20%EC%A4%91..&preview.text_type=custom#standard-styles */
 .container {
   height: 100%;
   display: flex;
   justify-content: center;
   /* 중앙정렬 */
-  background-color: rgba(39, 36, 36, 0.849);
+  background-color: #3b3d42;
   /* margin-left: 10%; */
 }
 
@@ -19,13 +16,11 @@ https://fonts.google.com/specimen/Song+Myung?subset=korean&preview.text=%EC%98%8
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+  font-weight: 900;
   /* 폰트 굵기 */
   font-size: 45px;
   text-shadow: 2px 2px 1px gray;
   /* 수직 수평 범위(굵기?) 색 */
-  font-family: "Song Myung", serif;
-  /* 구글폰트에서 가져온 한글폰트 */
 }
 
 .movies {
@@ -36,7 +31,7 @@ https://fonts.google.com/specimen/Song+Myung?subset=korean&preview.text=%EC%98%8
   grid-gap: 100px;
   /* grid간 간격 */
   padding: 50px;
-  width: 80%;
+  width: 90%;
   padding-top: 100px;
 }
 
