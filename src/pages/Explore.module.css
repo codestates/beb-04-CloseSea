@@ -1,0 +1,44 @@
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* 중앙정렬 */
+  background-color: #3b3d42;
+  /* margin-left: 10%; */
+}
+
+.loader {
+  width: 100%;
+  /* 넓이 (화면의 x %) */
+  height: 100vh;
+  /* vh 요소는 높이값의 100분의 1의 단위
+  10vh = 위에서 10 % 만 loader칸으로   */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  /* 폰트 굵기 */
+  font-size: 45px;
+  text-shadow: 2px 2px 1px gray;
+  /* 수직 수평 범위(굵기?) 색 */
+}
+
+.movies {
+  display: grid;
+  /* grid 속성 선언 */
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  /* 가로로 minmax 400px 인 grid를 2번 반복 */
+  grid-gap: 100px;
+  /* grid간 간격 */
+  padding: 50px;
+  width: 90%;
+  padding-top: 100px;
+}
+
+/* 반응형? */
+@media screen and (max-width: 1090px) {
+  .movies {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
