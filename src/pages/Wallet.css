@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.walletConnectWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #3b3d42;
+}
+
+.connectButton {
+  border-width: 1px;
+  border-color: #282b2f;
+  background-color: #2081e2;
+  padding: 0.8rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: black;
+  margin-left: 0.7rem;
+}
+
+.connectButton:hover {
+  background-color: #42a0ff;
+}
+
+.disconnectButton {
+  border-width: 1px;
+  border-color: #282b2f;
+  background-color: #d34646;
+  padding: 0.8rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: black;
+  margin-left: 7.2rem;
+}
+
+.disconnectButton:hover {
+  background-color: #e27070;
+}
+
+.conditionBorder {
+  background-color: aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0.5rem;
+}
+
+.detailsAdrees {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.details {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  margin-top: 1rem;
+}
