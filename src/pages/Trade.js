@@ -51,6 +51,7 @@ const Wallet = () => {
           return [
             ...prevState,
             { name, symbol, tokenId, tokenURI, tokenAddress },
+            // NFT 받기에서는 tokenAddress가 인자로 들어가있지 않았는데 NFT 보내기에서는 tokenAddress 가 인자로 있어야 한다!
           ];
         });
       }
