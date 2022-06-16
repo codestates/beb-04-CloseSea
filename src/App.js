@@ -1,13 +1,13 @@
-import Profile from "./pages/Profile";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main from "./components/Main";
-import Stats from "./pages/Stats";
-import Explore from "./pages/Explore";
-import Trade from "./pages/Trade";
-import Wallet from "./pages/Wallet";
-import Resources from "./pages/Resources";
-import Nav from "./components/Nav";
-
+import Profile from './pages/Profile';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Main from './components/Main';
+import Stats from './pages/Stats';
+import Explore from './pages/Explore';
+import Trade from './pages/Trade';
+import Wallet from './pages/Wallet';
+import Resources from './pages/Resources';
+import Nav from './components/Nav';
+//주석아무거나
 function App() {
   return (
     <>
