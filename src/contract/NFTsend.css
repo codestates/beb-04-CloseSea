@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.NFTsendWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.accent {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.nftTitle {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 800;
+}
+
+.otherInfo {
+  display: flex;
+}
+
+.ownedBy {
+  color: #8a939b;
+  margin-right: 1rem;
+}
+
+.symbol {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  margin-right: 0.7rem;
+}
+
+.nft {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+.inputsendAddress {
+  border-radius: 0.5rem;
+  width: 300px;
+  padding: 8px;
+  display: flex;
+  flex: 1 1 0%;
+  align-items: center;
+  margin-left: 0.5rem;
+  background-color: #fff;
+}
+
+.sendButton {
+  border-width: 1px;
+  border-color: #282b2f;
+  background-color: #2081e2;
+  padding: 0.8rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: black;
+  margin-left: 0.5rem;
+}

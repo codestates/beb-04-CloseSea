@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { AiOutlineSearch } from 'react-icons/ai';
-import { CgProfile } from 'react-icons/cg';
-import { MdOutlineAccountBalanceWallet } from 'react-icons/md';
-import './Nav.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import { AiOutlineSearch } from "react-icons/ai";
+import { CgProfile } from "react-icons/cg";
+import { MdOutlineAccountBalanceWallet } from "react-icons/md";
+import "./Nav.css";
 
 function Nav() {
   return (
@@ -39,21 +39,28 @@ function Nav() {
         <Link to="/explore">
           <div className="headerItem">Explore</div>
         </Link>
-        <Link to="/stats">
-          <div className="headerItem">Stats</div>
+
+        <div>
+          <a className="headerItem" href="https://opensea.io/rankings">
+            Stats
+          </a>
+        </div>
+
+        <div>
+          <a className="headerItem" href="https://support.opensea.io/hc/en-us">
+            Resources
+          </a>
+        </div>
+
+        <Link to="/trade">
+          <div className="headerItem">Trade</div>
         </Link>
-        <Link to="/resources">
-          <div className="headerItem">Resources</div>
-        </Link>
-        <Link to="/create">
-          <div className="headerItem">Create</div>
-        </Link>
-        <Link to="/about">
-          <div className="profileIcon">
-            <CgProfile />
-            {/* 👆 Opensea 홈페이지와 동일한 프로필 사진 이미지 */}
-          </div>
-        </Link>
+
+        <div className="profileIcon">
+          <CgProfile />
+          {/* 👆 Opensea 홈페이지와 동일한 프로필 사진 이미지 */}
+        </div>
+
         <Link to="/wallet">
           <div className="walletIcon">
             <MdOutlineAccountBalanceWallet />

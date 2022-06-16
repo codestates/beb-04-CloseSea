@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.walletConnectContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #3b3d42;
+}
+
+.connectCondition {
+  border-width: 1px;
+  border-color: #282b2f;
+  background-color: #238b31;
+  padding: 0.8rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  color: black;
+  margin-left: 8.5rem;
+}
+
+.inputAddress {
+  border-radius: 0.5rem;
+  width: 300px;
+  padding: 8px;
+  display: flex;
+  flex: 1 1 0%;
+  align-items: center;
+  margin-left: 3.5rem;
+  background-color: #fff;
+}
+
+.mintButton {
+  border-width: 1px;
+  border-color: #282b2f;
+  background-color: #2081e2;
+  padding: 0.8rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: black;
+  margin-left: 4.7rem;
+}
+
+.connectedButton {
+  border-width: 1px;
+  border-color: #282b2f;
+  background-color: #2081e2;
+  padding: 0.8rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: black;
+  margin-right: 0.2rem;
+}
+
+.connectedButton:hover {
+  background-color: #42a0ff;
+}
+
+.connectBorder {
+  background-color: aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0.5rem;
+}
+
+.detailsAddress {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.details {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  margin-top: 1rem;
+}

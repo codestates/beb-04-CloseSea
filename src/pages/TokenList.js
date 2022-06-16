@@ -1,9 +1,9 @@
-import Erc721 from '../components/Erc721';
+import NFTsend from "../contract/NFTsend";
 
 function TokenList({ web3, account, erc721list }) {
   return (
     <div className="tokenlist">
-      <Erc721 web3={web3} account={account} erc721list={erc721list} />
+      <NFTsend web3={web3} account={account} erc721list={erc721list} />
     </div>
   );
 }

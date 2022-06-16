@@ -1,12 +1,12 @@
-import { useEffect, useState } from 'react';
-import Movie from '../components/Movie.js';
-import styles from './Explore.module.css';
+import { useEffect, useState } from "react";
+import Movie from "../components/Movie.js";
+import styles from "./Explore.module.css";
 
 function Explore() {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
   useEffect(() => {
-    const options = { method: 'GET' };
+    const options = { method: "GET" };
     // 처음 렌더될 때 한 번만!
     const dataLoad = async () => {
       const dataList = await fetch(
@@ -33,6 +33,12 @@ function Explore() {
     <div className={styles.container}>
       {loading ? (
         <div className={styles.loader}>
+          <img
+            src="https://gateway.pinata.cloud/ipfs/QmY64Q4oxAkcKjH3XvsXmuXdPwDXBihsMndWjb1bVkhBiz"
+            width="100"
+            height="100"
+            alt=""
+          />
           <span>Loading NFT</span>
           {/* // 로딩중이면 */}
         </div>
