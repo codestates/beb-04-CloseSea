@@ -1,0 +1,141 @@
+.wrapper {
+  position: relative;
+}
+
+.container:before {
+  content: " ";
+  background-color: #ef4444;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background: url("https://ipfs.io/ipfs/QmcxckzMh85qjByvPb4MT8svdjNgjx6tttYTbEq7Ev3rVc");
+  background-size: cover;
+  opacity: 0.3;
+  filter: blur(8px);
+}
+
+.contentWrapper {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.copyContainer {
+  width: 50%;
+}
+
+.title {
+  position: relative;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.description {
+  color: #8a939b;
+  max-width: 400px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 2.5rem;
+}
+
+.ctaContainer {
+  display: flex;
+}
+
+.accentedButton {
+  position: relative;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #2181e2;
+  border-radius: 0.5rem;
+  margin-right: 1.25rem;
+  color: #fff;
+}
+
+.accentedButton:hover {
+  background-color: #42a0ff;
+  cursor: pointer;
+}
+
+.button {
+  position: relative;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #363840;
+  border-radius: 0.5rem;
+  margin-right: 1.25rem;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #4c505c;
+  cursor: pointer;
+}
+
+.cardContainer {
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  margin-bottom: -4px;
+}
+
+.infoContainer {
+  height: 3rem;
+  background-color: #313338;
+  padding: 1rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.nftprofile {
+  height: 2.25rem;
+  border-radius: 999px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.name {
+  color: #fff;
+}
+
+.infoIcon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 1 0%;
+  color: #8a939b;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.nftprofilelink {
+  color: #1868b7;
+  text-decoration: none;
+  margin-top: 5px;
+}
