@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+/* 구글폰트 주소
+https://fonts.google.com/specimen/Song+Myung?subset=korean&preview.text=%EC%98%81%ED%99%94%EC%A0%95%EB%B3%B4%EB%A5%BC%20%EB%B6%88%EB%9F%AC%EC%98%A4%EB%8A%94%20%EC%A4%91..&preview.text_type=custom#standard-styles */
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* 중앙정렬 */
+  background-color: rgba(39, 36, 36, 0.849);
+  /* margin-left: 10%; */
+}
+
+.loader {
+  width: 100%;
+  /* 넓이 (화면의 x %) */
+  height: 100vh;
+  /* vh 요소는 높이값의 100분의 1의 단위
+  10vh = 위에서 10 % 만 loader칸으로   */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  /* 폰트 굵기 */
+  font-size: 45px;
+  text-shadow: 2px 2px 1px gray;
+  /* 수직 수평 범위(굵기?) 색 */
+  font-family: "Song Myung", serif;
+  /* 구글폰트에서 가져온 한글폰트 */
+}
+
+.movies {
+  display: grid;
+  /* grid 속성 선언 */
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  /* 가로로 minmax 400px 인 grid를 2번 반복 */
+  grid-gap: 100px;
+  /* grid간 간격 */
+  padding: 50px;
+  width: 80%;
+  padding-top: 100px;
+}
+
+/* 반응형? */
+@media screen and (max-width: 1090px) {
+  .movies {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
