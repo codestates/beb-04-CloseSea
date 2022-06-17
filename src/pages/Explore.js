@@ -49,7 +49,7 @@ function Explore() {
               key={movie.id} // 컴포넌트를 map할 때도 key필요!
               id={movie.id}
               coverImg={movie.image_preview_url}
-              title={movie.asset_contract.name}
+              title={movie.name}
               description={movie.asset_contract.description}
               price={movie.last_sale.total_price / 10000000000000000000}
             />
