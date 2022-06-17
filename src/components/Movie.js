@@ -8,13 +8,12 @@ function Movie({ coverImg, title, description, price }) {
   return (
     <div className={styles.movie}>
       <img src={coverImg} className={styles.movie__img} />
-      {/* 모든 이미지 element들은 alt 속성을 가진다! */}
       <div>
         <h1 className={styles.movie__title}>{title}</h1>
         {description === "null" ? null : <p>{description}</p>}
       </div>
       <span className={styles.movie__price}>
-        Price: {price} eth
+        Price: {price}
         <img
           className="ethImg"
           src="https://gateway.pinata.cloud/ipfs/QmSiscDA3ybp8jbHYT5qiDoRM17tRqLf7dTuCG7oJ44ayr"
