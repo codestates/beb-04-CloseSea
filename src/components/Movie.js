@@ -12,17 +12,20 @@ function Movie({ coverImg, title, description, price }) {
         <h1 className={styles.movie__title}>{title}</h1>
         {description === "null" ? null : <p>{description}</p>}
       </div>
-      <span className={styles.movie__price}>
-        Price: {price}
-        <img
-          className="ethImg"
-          src="https://gateway.pinata.cloud/ipfs/QmSiscDA3ybp8jbHYT5qiDoRM17tRqLf7dTuCG7oJ44ayr"
-          width="30"
-          height="30"
-          alt=""
-          // 👆 누가 판매중인지 프로필 이미지 띄우기
-        />
-      </span>
+      <div className={styles.movie__price}>
+        <p>price</p>
+        <span>
+          {price}
+          <img
+            className="ethImg"
+            src="https://gateway.pinata.cloud/ipfs/QmSiscDA3ybp8jbHYT5qiDoRM17tRqLf7dTuCG7oJ44ayr"
+            width="30"
+            height="30"
+            alt=""
+            // 👆 누가 판매중인지 프로필 이미지 띄우기
+          />
+        </span>
+      </div>
 
       <div className={styles.down}>
         <span
