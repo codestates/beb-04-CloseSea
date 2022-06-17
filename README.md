@@ -24,7 +24,8 @@
 
 ---
 
-### 기능
+### 기능  <br/>
+
 
 **Explore** - 실제 Opensea Testnet에 업로드 되어 있는 NFT를 최신순으로 조회합니다 <br />
 **Stats** - 실제 Opensea Stats 화면으로 이동됩니다 <br />
