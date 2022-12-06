@@ -21,7 +21,7 @@
 
 ### 기능
 
-**Explore** - 실제 Opensea에서 판매되고 있는 NFT를 인기순으로 조회합니다 <br /> 
+**Explore** - Opensea 테스트넷에 있는 NFT들을 조회합니다 <br /> 
 **Stats** - 실제 Opensea Stats 화면으로 이동됩니다 <br /> 
 **Resources** - 실제 Opensea Resources 화면으로 이동됩니다 <br /> 
 **Trade** - 자신이 소유중인 NFT를 조회 할 수 있고 다른사람에게 전송 할 수 있습니다 <br /> 
